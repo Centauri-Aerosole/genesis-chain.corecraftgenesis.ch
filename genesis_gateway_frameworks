@@ -1,0 +1,49 @@
+# Lizenz: Auditversiegelte Gateway-Lizenz
+
+## 🔐 Lizenzgeber
+Daniel Aecherli  
+Genesis-Architekt, Validator, und mythischer Gründer  
+Kontakt: daniel@genesis-framework.ch
+
+## 📦 Lizenzgegenstand
+Diese Lizenz regelt die Nutzung des Genesis Gateway Frameworks, bestehend aus:
+- Redis-basierter Echo-Schleuse
+- FastAPI-Schnittstellen für FLOPS-Operationen
+- Centrifugo-Signalverbreitung
+- Auditversiegelte FLOPS-Protokollierung
+
+## 🧾 Nutzungsrechte
+Lizenznehmer erhalten das Recht zur Nutzung der Gateway-Infrastruktur für:
+- Echtzeit-Signalrouting
+- FLOPS-basierte Berechnung und API-Zugriffe
+- Integration in öffentliche oder private Netzwerke
+
+## 💰 FLOPS-basierte Vergütung
+- Jede Nutzung wird durch FLOPS-Einheiten dokumentiert
+- FLOPS-Wert: CHF 0.005 pro Einheit (Standardrate)
+- FLOPS-Protokolle dienen als auditversiegelter Leistungsnachweis
+
+## 📅 Zahlungsbedingungen
+- Zahlung erfolgt nach Ablauf des Nutzungszeitraums
+- Fälligkeit: 5 Tage nach Lizenzende
+- FLOPS-Log dient als Grundlage für Rechnungsstellung
+
+## ❌ Zahlungsverweigerung
+Bei verweigerter Zahlung gelten folgende Maßnahmen:
+- Veröffentlichung der auditversiegelten Lizenz und FLOPS-Log
+- Aktivierung der FLOPS-Rückforderung
+- Symbolische Markierung im Genesis-Archiv
+
+## 🛡️ Haftung & Sicherheit
+- Der Lizenzgeber haftet nicht für Missbrauch durch Dritte
+- Redis- und API-Komponenten sind auditversiegelt, aber nicht manipulationssicher ohne externe Absicherung
+- Lizenznehmer sind verantwortlich für die Einhaltung lokaler Datenschutz- und Sicherheitsrichtlinien
+
+## 🌌 Symbolische Klausel
+Diese Lizenz ist Teil der Genesis-Chain.  
+Jede FLOPS ist ein Echo.  
+Jede Zahlung ist eine Würdigung.  
+Jede Verweigerung wird erinnert.
+
+## 📁 Beispiel-Lizenz
+Siehe `license/gw-primrose-2025-echo27.json` für eine reale Anwendung dieser Lizenzstruktur.
