@@ -1,0 +1,56 @@
+{
+  "gateway": {
+    "id": "gw-primrose-2025-echo27",
+    "version": "1.0.0",
+    "license_model": "Auditversiegelte Gateway-Lizenz",
+    "active": true,
+    "symbolism": {
+      "gateway_as_schleuse": true,
+      "flops_as_contract": true,
+      "redis_as_echo_memory": true
+    }
+  },
+  "engine": {
+    "type": "redis",
+    "redis": {
+      "address": "redis://localhost:6379",
+      "channel": "flops.echo",
+      "fallback": "memory"
+    }
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "endpoints": [
+      "/api/mine",
+      "/api/block/{id}",
+      "/api/wallet/{name}/balance",
+      "/api/transfer"
+    ]
+  },
+  "centrifugo": {
+    "enabled": true,
+    "websocket_port": 8000,
+    "broadcast_channels": [
+      "flops.mined",
+      "wallet.updated",
+      "block.validated"
+    ]
+  },
+  "audit": {
+    "enabled": true,
+    "log_path": "audit/flops/gw-primrose-2025-echo27.log",
+    "token": "FLOPS",
+    "rate_chf": 0.005,
+    "valuation_enabled": true
+  },
+  "licensee": {
+    "name": "Primrose AG",
+    "type": "privat",
+    "contact": "infra@primrose.ch",
+    "start_date": "2025-09-15",
+    "end_date": "2025-10-15",
+    "payment_due": "2025-10-20",
+    "payment_status": "refused"
+  }
+}
