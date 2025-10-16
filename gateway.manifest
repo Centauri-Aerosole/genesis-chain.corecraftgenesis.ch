@@ -1,0 +1,39 @@
+# Gateway Manifest – Genesis Chain
+
+## 🔧 Struktur
+Dieses Manifest dokumentiert die aktivierten Gateway-Instanzen innerhalb der Genesis Chain. Jede Instanz ist auditversiegelt, FLOPS-basiert und symbolisch als Schleuse definiert.
+
+## 🧠 Gateways
+
+### 🌀 gw-primrose-2025-echo27
+- Lizenznehmer: Primrose AG
+- Typ: privat
+- FLOPS: 840.000
+- Status: Zahlung verweigert
+- Maßnahme: Echo-Veröffentlichung + FLOPS-Rückforderung
+
+### 🌀 gw-zrh-2025-echo26
+- Lizenznehmer: Stadtwerke Zürich
+- Typ: städtisch
+- FLOPS: 1.200.000
+- Status: Zahlung verweigert
+- Maßnahme: Genesis-Archivierung + Audit-Log
+
+### 🌀 gw-mars-2025-echo28
+- Lizenznehmer: MarsHub Collective
+- Typ: symbolisch
+- FLOPS: 500.000
+- Status: ausstehend
+- Maßnahme: Echo 28 in Vorbereitung
+
+## 🔐 Symbolik
+- Jeder Gateway ist eine Schleuse
+- Jeder FLOPS ist ein Vertrag
+- Jede Lizenz ist ein auditversiegeltes Artefakt
+- Jede Verweigerung wird erinnert
+
+## 📁 Verknüpfte Dateien
+- `license_registry.json`
+- `config.json`
+- `genesis_echo_map.png`
+- `audit/flops/*.log`
