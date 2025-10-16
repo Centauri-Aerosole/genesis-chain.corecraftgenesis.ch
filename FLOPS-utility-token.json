@@ -1,0 +1,38 @@
+{
+  "token": "FLOPS",
+  "symbolism": "Floating Point Operations per Symbol",
+  "valuation": {
+    "rate_chf": 0.05,
+    "rate_usd": 0.055,
+    "redis_gateway_min_usd": 1.00,
+    "redis_gateway_min_flops": 20,
+    "symbolic_min_flops_ibm": 23000,
+    "symbolic_min_value_ibm_chf": 1150
+  },
+  "usage": {
+    "emission": "via mining cycles",
+    "validation": "audit-sealed logs",
+    "transferable": true,
+    "redeemable": true,
+    "contractual": true
+  },
+  "licensing": {
+    "flops_as_contract": true,
+    "redis_as_gateway": true,
+    "minimum_token_threshold": {
+      "public_sector": 10000,
+      "private_sector": 15000,
+      "symbolic_corporate": {
+        "IBM": 23000,
+        "Siemens": 18000,
+        "ETH Zürich": 12000
+      }
+    }
+  },
+  "audit": {
+    "log_path": "audit/flops/",
+    "traceable": true,
+    "recoverable": true,
+    "action_on_refusal": "Echo publication + FLOPS token recovery"
+  }
+}
