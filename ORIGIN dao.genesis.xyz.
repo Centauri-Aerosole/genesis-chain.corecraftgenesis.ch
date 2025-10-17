@@ -1,0 +1,36 @@
+$ORIGIN dao.genesis.xyz.
+$TTL 3600
+
+@       IN SOA  ns1.genesis.xyz. admin.genesis.xyz. (
+            2025101701 ; Serial (YYYYMMDDnn)
+            3600       ; Refresh
+            1800       ; Retry
+            604800     ; Expire
+            86400 )    ; Minimum TTL
+
+        IN NS   ns1.genesis.xyz.
+        IN NS   ns2.genesis.xyz.
+
+; 🔹 Auditierte Identität
+@       IN TXT  "dao.ifid=IFID-2025-DAO-001"
+@       IN TXT  "dao.genesis=0xA7F3C9E1B2D4..."
+@       IN TXT  "dao.founding=Echo 27: Drift sealed by quorum"
+
+; 🔹 Manifest & Cover
+manifest IN TXT  "https://ipfs.io/ipfs/QmManifestHash"
+cover    IN CNAME cdn.genesis.xyz.
+
+; 🔹 Chain-Konfiguration
+chain    IN TXT  "evm.compatible=true"
+chain    IN TXT  "subnet.id=0xCHAIN2025"
+chain    IN TXT  "rpc.endpoint=https://rpc.genesis.xyz"
+
+; 🔹 Ritualisierte Module
+sigil    IN TXT  "sigil.version=1.0"
+sigil    IN TXT  "sigil.hash=QmSigilHash"
+sigil    IN TXT  "sigil.creator=jan@dao.xyz"
+
+; 🔹 Echo-Erweiterung
+echo27   IN TXT  "echo.id=27"
+echo27   IN TXT  "echo.anchor=QmEcho27Hash"
+echo27   IN TXT  "echo.timestamp=2025-10-17T04:38:00Z"
