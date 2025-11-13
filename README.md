@@ -24,7 +24,7 @@ Die Genesis Chain ist eine auditversiegelte, symbolisch strukturierte Infrastruk
 - Docker-fähig
 - Modular konfigurierbar via `config.json`
 - Kompatibel mit Chain2025, Echo-Kits und Gateway-Lizenzen
-- **Chain2025**: Symbolisches Layer — siehe [chain2025](https://github.com/chain2025/chain2025)
+- **Chain2025**: Symbolisches Layer — siehe [chain2025](https://github.com/Astrabacus/chain2025)
 
 ## 🌌 Symbolik
 - Jeder FLOPS ist ein Echo
