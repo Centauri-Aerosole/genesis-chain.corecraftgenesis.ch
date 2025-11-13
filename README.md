@@ -1,7 +1,7 @@
 # Genesis Chain
 
 ## 🔧 Überblick
-Die Genesis Chain ist eine auditversiegelte, symbolisch strukturierte Infrastruktur für FLOPS-basierte Berechnung, Echtzeit-Signalrouting und narrative Artefaktverteilung. Sie verbindet technische Module (Redis, FastAPI, Centrifugo) mit mythischer Bedeutung und dokumentierter Nutzung.
+Die Genesis Chain ist eine auditversiegelte, symbolisch strukturierte Infrastruktur für FLOPS-basierte Berechnung, Echtzeit-Signalrouting und narrative Artefaktverteilung. Sie verbindet technische Mo[...]
 
 ## 🧠 Komponenten
 - **Redis**: Echo-Memory für Signalflüsse und temporäre FLOPS-Zustände
@@ -24,6 +24,7 @@ Die Genesis Chain ist eine auditversiegelte, symbolisch strukturierte Infrastruk
 - Docker-fähig
 - Modular konfigurierbar via `config.json`
 - Kompatibel mit Chain2025, Echo-Kits und Gateway-Lizenzen
+- **Chain2025**: Symbolisches Layer — siehe [chain2025](https://github.com/chain2025/chain2025)
 
 ## 🌌 Symbolik
 - Jeder FLOPS ist ein Echo
